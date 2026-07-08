@@ -1,0 +1,5 @@
+variant,engine,model_vram_mb,avg_tok_per_s,perplexity,peak_vram_mb
+FP16,HF,2954.0,32.2,16.55,3414.0
+FP16,vLLM (INFEASIBLE),N/A,INFEASIBLE,16.55,N/A
+INT4-AWQ,HF,1544.0,19.9,18.41,1567.0
+INT4-AWQ,vLLM,1127,59.1,18.41,2346.0

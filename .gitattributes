@@ -1,0 +1,13 @@
+# Normalize line endings: always LF in repo, auto-convert on checkout
+* text=auto
+
+# Force LF for Python and text files
+*.py    text eol=lf
+*.md    text eol=lf
+*.csv   text eol=lf
+*.txt   text eol=lf
+
+# Binary files — no conversion
+*.png   binary
+*.pdf   binary
+*.docx  binary
